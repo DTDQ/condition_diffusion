@@ -1,0 +1,11 @@
+{
+  "documents": [
+    {
+      "source_id": "cninfo-000001-20260710-001",
+      "published_at": "2026-07-10T14:20:00+08:00",
+      "source_type": "exchange_announcement",
+      "title": "示例：经营情况公告",
+      "content": "这是格式示例，不是真实证券材料。公司预计年度收入指引下调。"
+    }
+  ]
+}

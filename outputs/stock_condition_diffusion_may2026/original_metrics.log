@@ -1,0 +1,60 @@
+forecast MSE=2.21516705
+correlational score=0.71613437
+discriminative 1/5: score=0.325971 fake_acc=0.839357 real_acc=0.812584
+discriminative 2/5: score=0.338688 fake_acc=0.884873 real_acc=0.792503
+discriminative 3/5: score=0.317938 fake_acc=0.817938 real_acc=0.817938
+discriminative 4/5: score=0.261714 fake_acc=0.690763 real_acc=0.832664
+discriminative 5/5: score=0.301205 fake_acc=0.804552 real_acc=0.797858
+predictive 1/5: MAE=0.021542
+predictive 2/5: MAE=0.021617
+predictive 3/5: MAE=0.021563
+predictive 4/5: MAE=0.021854
+predictive 5/5: MAE=0.021532
+Context-FID 1/5: 0.378656
+Context-FID 2/5: 0.339679
+Context-FID 3/5: 0.315856
+Context-FID 4/5: 0.345762
+Context-FID 5/5: 0.336566
+{
+  "forecast_mse_original_scale": 2.2151670455932617,
+  "correlational_score": 0.7161343693733215,
+  "discriminative_score": {
+    "mean": 0.3091030716896057,
+    "std": 0.029774152780380495,
+    "runs": [
+      0.3259705603122711,
+      0.33868807554244995,
+      0.3179383873939514,
+      0.26171350479125977,
+      0.3012048304080963
+    ]
+  },
+  "predictive_score": {
+    "mean": 0.02162159573364787,
+    "std": 0.0001338309766615372,
+    "runs": [
+      0.021542334883056867,
+      0.021617168494378867,
+      0.02156259862514139,
+      0.02185368789992882,
+      0.021532188765733394
+    ]
+  },
+  "context_fid": {
+    "mean": 0.3433038334263155,
+    "std": 0.022736391148112604,
+    "runs": [
+      0.3786563427670328,
+      0.33967860141223816,
+      0.31585594730227373,
+      0.3457624341784332,
+      0.3365658414715994
+    ]
+  },
+  "notes": {
+    "metric_input": "robust-normalized values mapped from [-1,1] to [0,1]",
+    "predictive_target": "top_ten_stk_quantity_g",
+    "generated_trajectory": "ensemble sample 0, matching one generated trajectory per real trajectory"
+  }
+}
+Saved plots to outputs/stock_condition_diffusion_may2026/evaluation_plots

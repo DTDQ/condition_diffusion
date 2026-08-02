@@ -1,0 +1,43 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+**/*credentials*.env
+**/ifind.env
+**/wds_credentials.env
+*.pem
+*.key
+
+# Raw, intermediate, and training data
+/data/
+/train_data/
+/logs/
+/analysis/descriptor_history_ffilled.pkl
+/quant-data-skill.skill
+/.skills/**/data/
+
+# Generated prediction arrays (metrics, plots, logs, and checkpoints stay tracked)
+/outputs/**/*.npy
+/outputs/**/matplotlib/
+
+# Local Python/Conda environments
+/.miniconda3/
+/.venv/
+/.conda-state/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~

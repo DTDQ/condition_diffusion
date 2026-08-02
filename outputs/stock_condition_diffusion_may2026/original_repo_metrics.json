@@ -1,0 +1,42 @@
+{
+  "forecast_mse_original_scale": 2.2151670455932617,
+  "correlational_score": 0.7161343693733215,
+  "discriminative_score": {
+    "mean": 0.3091030716896057,
+    "std": 0.029774152780380495,
+    "runs": [
+      0.3259705603122711,
+      0.33868807554244995,
+      0.3179383873939514,
+      0.26171350479125977,
+      0.3012048304080963
+    ]
+  },
+  "predictive_score": {
+    "mean": 0.02162159573364787,
+    "std": 0.0001338309766615372,
+    "runs": [
+      0.021542334883056867,
+      0.021617168494378867,
+      0.02156259862514139,
+      0.02185368789992882,
+      0.021532188765733394
+    ]
+  },
+  "context_fid": {
+    "mean": 0.3433038334263155,
+    "std": 0.022736391148112604,
+    "runs": [
+      0.3786563427670328,
+      0.33967860141223816,
+      0.31585594730227373,
+      0.3457624341784332,
+      0.3365658414715994
+    ]
+  },
+  "notes": {
+    "metric_input": "robust-normalized values mapped from [-1,1] to [0,1]",
+    "predictive_target": "top_ten_stk_quantity_g",
+    "generated_trajectory": "ensemble sample 0, matching one generated trajectory per real trajectory"
+  }
+}
